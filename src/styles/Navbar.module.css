@@ -1,0 +1,56 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	/* background-color: var(--tertiary-color); */
+	height: 1.25rem;
+}
+
+.navItem {
+	color: #000;
+	font-weight: 600;
+	font-family: var(--secondary-font);
+	text-decoration: none;
+	margin-right: 1rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.centerNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand {
+	font-family: var(--primary-font);
+	text-decoration: none;
+	color: #000;
+	font-weight: 800;
+	font-size: 1.4rem;
+}
+
+.navItem:hover {
+	color: var(--secondary-color);
+}
+
+.rightNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rightNav .navItem {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.rightNav {
+		margin-top: 1rem;
+	}
+}

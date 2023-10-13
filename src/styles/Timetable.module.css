@@ -1,0 +1,85 @@
+.timetable {
+	width: 80%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.timetable th,
+.timetable td {
+	border: 1px solid #f5f5f557;
+	padding: 8px;
+}
+
+.timetable th {
+	background-color: var(--tertiary-color);
+}
+
+.addRowButton {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: var(--secondary-color);
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.addRowForm {
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: var(--tertiary-color);
+	border-radius: 4px;
+	text-align: center;
+	color: #333;
+}
+
+.addRowForm label {
+	width: 50%;
+	margin: 8px 0;
+	text-align: left;
+}
+
+.addRowForm input[type="text"],
+.addRowForm input[type="time"] {
+	width: calc(50% - 10px);
+	padding: 12px;
+	margin: 8px 5px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.addRowForm button {
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	background-color: var(--secondary-color);
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.formDiv {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.toolsDiv {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	margin-inline: auto;
+}
+.toolsDiv button {
+	font-size: 1.2rem;
+	background: none;
+	border: none;
+}
