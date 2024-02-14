@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { UserContext } from "./_app";
 import Cookies from "js-cookie";
 import Link from "next/link";
-import styles from "../styles/login.module.css";
+import styles from "../styles/Login.module.css";
 import Navbar from "../components/nav.component";
 
 const Login = () => {
